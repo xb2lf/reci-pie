@@ -3,7 +3,7 @@
  * @version:
  * @Date: 2025-03-23 15:04:02
  * @LastEditors: {baixiao}
- * @LastEditTime: 2025-03-23 16:05:24
+ * @LastEditTime: 2025-03-23 17:51:58
  * @Description:
  */
 import { View, FlatList } from 'react-native';
@@ -13,7 +13,7 @@ import { recipeItemType } from '@/types';
 
 const RecipeCard = () => {
   return (
-    <View style={{ flex: 1, paddingBottom: 80 }}>
+    <View style={{ flex: 1 }}>
       <FlatList
         showsVerticalScrollIndicator={false}
         numColumns={2}
